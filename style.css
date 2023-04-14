@@ -1,0 +1,20 @@
+body{
+    padding: 20px 30px;
+    
+    background-color: aqua;
+}
+.formError{
+    color: red;
+}
+.formdes{
+ padding: 20px 10px;
+}
+.formdes input{
+    width: 50%;
+    border-radius: 5px;
+    padding: 5px;
+}
+.butt{
+    border-radius: 15px;
+    width: 100px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+   
+   
+</head>
+
+<body>
+    <h1> welcome to the registration </h1>
+    <form name="myForm" action="index.html" method="post" onsubmit="return validateForm()">
+
+            <div class=" formdes"  >
+                
+            FIRST NAME :<input type="text" name ="firstname" placeholder="firstname" id ="name" required> <b> <span class="formError" id ="fname"> </b></span> 
+
+            <div class=" formdes"  >
+                
+            LAST NAME :<input type="text" name ="flast name" placeholder="lastname" id="lname" required> <span class="formError" id="laname"> </span>
+
+            </div>
+            <div class=" formdes" >
+                
+            EMAIL :<input type="email" name ="femail" placeholder="email" id="email" required> <span class=" formError" id="umail">  </span>
+
+            </div>
+            <div class=" formdes"id="phonee" >
+
+            PHONE :<input type="number" name ="fphone" placeholder="phone" id="phonee" required> <span class="formError" id = "perror"> </span>
+
+            </div>
+            <div class=" formdes" id ="bday">
+            DOB : <input type="date" name="birthday"  ><span class="formError"></span>
+            </div>
+
+            <div class=" formdes" id ="password">
+                
+
+            PASSWORD :<input type="password" name ="fpassword" placeholder="pssword" id ="pssword" required> <B><span class="formError" id ="puss"></span></B> 
+                
+                </div>
+                <div class=" formdes" id ="ccpassword">
+
+            CONFIRM PASSWORD :<input type="password" name ="cpassword" placeholder="phone" id ="ccpassword" required> <span class="formError" id="cpuss"> <b></b></span>
+                    
+                    </div>
+                        
+
+
+                    <input class="butt" type="submit" value="submit">
+    </form>
+    <!-- <script src="event.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> -->
+    <script src="apps.js"></script>
+</body>
+
+</html>
